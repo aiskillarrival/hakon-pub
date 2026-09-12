@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 import requests
 from bs4 import BeautifulSoup
 
-RSS_URL = "https://www.pbs.org/newshour/feeds/rss/news"
+RSS_URL = "https://rss.upi.com/news/tn_us.rss"
 USER_AGENT = "DemoCrawler/1.0 (+https://example.com; contact@example.com)"
 TIMEOUT = 15
 
